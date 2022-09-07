@@ -41,3 +41,8 @@ body{
 ul{
     list-style: url('images/pie_icon.gif');
 }
+
+img.d{
+    width:150px;
+    height: 150px;
+}
