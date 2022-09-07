@@ -39,7 +39,7 @@ body{
 }
 
 ul{
-    list-style: url('images/pie_icon.gif');
+    list-style-image: url(images/pie_icon.gif);
 }
 
 img.d{
