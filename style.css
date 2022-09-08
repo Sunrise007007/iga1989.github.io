@@ -1,0 +1,85 @@
+
+#header{
+    grid-area: header;
+    background-color: dodgerblue;
+    text-align: center;
+}
+#menuz{
+    grid-area: menuz;
+    background-color: green;
+    color: white;
+    display: flex;
+}
+#columnz{
+    grid-area: columnz;
+    display: flex;
+}
+#footer{
+    grid-area: footer;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+
+
+#column1{
+    width: 25%;
+    background-color: gray;
+}
+#column2{
+    width: 50%;
+    background-color: darkgrey;
+}
+#column3{
+    width: 25%;
+    background-color: lightgray;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        display: grid;
+        height: 90vh;
+        grid-template-areas:
+        "header header"
+        "header header"
+        "menuz menuz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "footer footer"
+        "footer footer"
+        ;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .container{
+        display: grid;
+        height: 90vh;
+        grid-template-areas:
+        "header header header"
+        "header header header"
+        "menuz menuz menuz"
+        "columnz columnz columnz"
+        "columnz columnz columnz"
+        "columnz columnz columnz"
+        "columnz columnz columnz"
+        "columnz columnz columnz"
+        "columnz columnz columnz"
+        "columnz columnz columnz"
+        "columnz columnz columnz"
+        "columnz columnz columnz"
+        "columnz columnz columnz"
+        "footer footer footer"
+        "footer footer footer"
+        ;
+    }
+}
