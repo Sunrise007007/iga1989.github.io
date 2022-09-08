@@ -39,14 +39,14 @@ body {
     grid-template-areas:
       "header header header"
       "menuu menuu menuu"
-      " columnn columnn columnn"
-      " columnn columnn columnn"
-      " columnn columnn columnn"
-      " columnn columnn columnn"
-      " columnn columnn columnn"
-      " columnn columnn columnn"
-      " columnn columnn columnn"
-      " columnn columnn columnn"
+      "columnn columnn columnn"
+      "columnn columnn columnn"
+      "columnn columnn columnn"
+      "columnn columnn columnn"
+      "columnn columnn columnn"
+      "columnn columnn columnn"
+      "columnn columnn columnn"
+      "columnn columnn columnn"
       "footer footer footer";
   }
   
