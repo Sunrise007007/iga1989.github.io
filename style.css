@@ -36,6 +36,7 @@
     background-color: lightgray;
 }
 
+
 @media only screen and (max-width: 600px){
     .container{
         display: grid;
@@ -54,11 +55,18 @@
         "columnz columnz"
         "columnz columnz"
         "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
+        "columnz columnz"
         "footer footer"
         "footer footer"
         ;
     }
 }
+
 
 @media only screen and (min-width: 600px){
     .container{
