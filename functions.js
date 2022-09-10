@@ -49,7 +49,7 @@ function product(arr){
 }
 /* runs test to see if expected argument is === to value returned by function2test argument */
 function myFunctionTest(expected, found) {
-  if (expected === found) {
+  if (expected === found || expected.toString()===found.toString()) {
     return "TEST SUCCEEDED";
   } else {
     return "TEST FAILED.  Expected " + expected + " found " + found;
