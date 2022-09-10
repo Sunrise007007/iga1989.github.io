@@ -68,10 +68,10 @@ console.log("Expected output of maxOf3(55,4,44) is 55  " + myFunctionTest(55, ma
 console.log("Expected output of isVowel(a) is true  " + myFunctionTest(true, isVowel("a")));
 console.log("Expected output of isVowel(z) is false  " + myFunctionTest(false, isVowel("z")));
 console.log("Expected output of sum([1,2,3,4,5]) is 15  " + myFunctionTest(15, sum([1,2,3,4,5])));
-console.log("Expected output of multiply([1,2,3,4,5]) is true  " + myFunctionTest(120, multiply([1,2,3,4,5])));
-console.log("Expected output of reverse(jag testar) is true  " + myFunctionTest("ratset gaj", reverse("jag testar")));
-console.log("Expected output of findLongestWord([dan, ritah, renatah]) is true  " + myFunctionTest("renatah", findLongestWord(["dan","renatah","ritah"])));
-console.log("Expected output of filterLongWords([dan, ritah, renatah]) is true  " + myFunctionTest(["renatah","ritah"], filterLongWords(["dan","renatah","ritah"],3)));
+console.log("Expected output of multiply([1,2,3,4,5]) is 120  " + myFunctionTest(120, multiply([1,2,3,4,5])));
+console.log("Expected output of reverse(jag testar) is ratset gaj  " + myFunctionTest("ratset gaj", reverse("jag testar")));
+console.log("Expected output of findLongestWord([dan, ritah, renatah]) is renatah  " + myFunctionTest("renatah", findLongestWord(["dan","renatah","ritah"])));
+console.log("Expected output of filterLongWords([dan, ritah, renatah]) is [renatah,ritah]  " + myFunctionTest(["renatah","ritah"], filterLongWords(["dan","renatah","ritah"],3)));
 console.log(`All elements multiplied by 3 => ${multiplyBy3} ${myFunctionTest([3, 9, 15, 9, 9], multiplyBy3)}`);
 console.log(`Array with all elements equal to 3 => ${equalTo3} ${myFunctionTest([3, 3, 3, 3, 3], equalTo3)}`);
 console.log(`Product of all elements => ${product(a)} ${myFunctionTest(135, product(a))}`);
