@@ -1,0 +1,7 @@
+CLOSURE
+Qn3.A free variable is a variable referred to by a function and it is not one of the its parameters or local variables. 
+An example of a free variable is counter in the add().
+
+SCOPE
+Qn2.A global scope is a default scope for all code running in script mode while function scope is a scope created within 
+a function.
