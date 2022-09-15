@@ -1,30 +1,53 @@
-$(function () {
-    "use strict";
-    $('#start').click(function () {
-        const $walls = $("#maze .boundary");
-        const $status = $('#status');
-        const $maze = $('#maze');
-        $walls.removeClass('youlose youwin'); // reset walls
-        $status.text("Maze has begun! Find your way through");
+window.onload = function() {
+    $("start").onclick = startClick;
+    $("end").onmouseover = overEnd;
+    $("maze").onmouseleave = noCheat;
+    var boundaries = $$("div#maze div.boundary");
+    for (var i = 0; i < boundaries.length; i++) {
+        boundaries[i].onmouseover = overBoundary;
+        boundaries[i].onmousleave = overBoundary;
+    }
+};
 
-        $walls.mouseenter(function () {
-            $walls.addClass('youlose');
-        });
+function overBoundary() {
+    var x = document.getElementsByClassName("boundary");
 
-        $maze.mouseleave(function () {
-            // if you leave the maze div, you lose!
-            $walls.addClass('youlose');
-        });
+    for (var i = 0; i < x.length; i++) {
+        x[i].style.backgroundColor = "red";
+        if (x[i].style.backgroundColor == "red") {
+            var s = document.getElementById("status").innerHTML = "You Lose!";
+        }
+    }
+}
 
-        $('#end').mouseenter(function () {
-            if ($walls.hasClass('youlose')) {
-                $status.text("You lose :[");
-            } else {
-                $status.text("You win :]");
-                $walls.addClass('youwin');
-            }
-            $walls.off('mouseenter');
-            $maze.off('mouseleave');
-        });
-    });
-});
+function startClick() {
+    var x = document.getElementsByClassName("boundary");
+
+    for (var i = 0; i < x.length; i++) {
+        x[i].style.backgroundColor = "#eeeeee";
+        if (x[i].style.backgroundColor != "red") {
+            var s = document.getElementById("status").innerHTML = "Move your mouse over the 'S' to begin.";
+        }
+    }
+}
+
+function overEnd() {
+    var x = document.getElementsByClassName("boundary");
+
+    for (var i = 0; i < x.length; i++) {
+        if (x[i].style.backgroundColor != "red") {
+            var s = document.getElementById("status").innerHTML = "You win!";
+        }
+    }
+}
+
+function noCheat() {
+    var x = document.getElementsByClassName("boundary");
+
+    for (var i = 0; i < x.length; i++) {
+        x[i].style.backgroundColor = "red";
+        if (x[i].style.backgroundColor == "red") {
+            var s = document.getElementById("status").innerHTML = "Nice Try...";
+        }
+    }
+}
