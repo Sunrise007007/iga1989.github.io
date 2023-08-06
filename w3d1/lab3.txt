@@ -1,0 +1,40 @@
+Five common challenges of Scrum and how to manage them
+1.       Disruption to team work
+In a Scrum project, processes are laid out and it’s up to everyone working in the Sprint to deliver. 
+That’s in an ideal world. Product Owners try to introduce new requirements, and even the Scrum Master 
+can start to interfere too much.
+
+Keep a lid on disruptions to the Sprint by having the Scrum Master be strict in protecting the process. They must push back on extra requests and additions to the Sprint Backlog and not micro-manage the team, either.
+
+2.       Inadequate Sprint duration
+The jury is still out on the perfect Sprint duration. Some studies suggest that week-long Sprints have more 
+difficulties, whilst others reckon that lots of fast Sprints keep a process vibrant. 
+The Scrum Master sets the Sprint duration using their expert knowledge.
+
+Time management skills are needed to keep Sprints on track. 
+Introduce time-boxing to make sure nothing drags on too long; 
+A time box should ideally be no more than three days. 
+Breaking tasks down into manageable chunks will also help manage the Sprint duration.
+
+3.       Lack of knowledge and training
+As with anything else in your organisation, you should train your Scrum practitioners well. 
+It doesn’t always happen; lot of the time it’s assumed that the team will pick up the process along the way. 
+It’s not as common a project management framework as waterfall or other agile processes 
+so don’t assume prior knowledge.
+
+Everyone working within the Scrum must know how the process works. 
+You need an experienced Product Owner and Scrum Master, but knowledge should run across the team. 
+Scrum works best with a team of engaged experts.
+
+4.       Backlog management
+Elements of the Scrum framework are immoveable, such as the Daily Scrum and the role of the Scrum Master. 
+There is a lot that’s left for the team to sort out themselves, like how to actually complete the work in the backlog. 
+Scrum comes with a list of prioritised items in the backlog, but no guidance on how to actually complete these.
+
+Encourage your Sprint Team to design their own processes. Scrum is about collaboration, so allowing some freedom on how to deliver the product is empowering. You can also instruct the team to ask everyone if they need help with their tasks before picking up a new item from the backlog.
+
+5.       No best practices
+As well used as Scrum is, it’s a simple framework that you can plug in your own team, you need some of your own processes too. There’s no handbook with technical practices or a troubleshooting guide.
+
+It’s possible to design your own best practices for the Scrums in your project remit. 
+You can choose to have this done by team or across the whole project department.  
